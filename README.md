@@ -55,10 +55,27 @@ java -jar bundletool-all-1.7.0.jar  install-apks --apks=test1.apks
 7.使用bundletool 工具本地测试时，需要把features模块下的AndroidManifest.xml文件dist改为install-time，如果还是
 on-demand则安装后运行会提示找不到对应的类。
 
+gradlew packageV_test1DebugUniversalApk
+
 
 
 # 参考文档
 https://blog.csdn.net/github_38688162/article/details/114849855
 https://developer.android.google.cn/guide/app-bundle/play-feature-delivery
+https://juejin.cn/post/7049522872682807333
+https://www.jianshu.com/p/57cccc680bb6
+https://blog.csdn.net/weixin_36139431/article/details/125858326
+https://blog.csdn.net/qq_21118431/article/details/106267607
+https://blog.csdn.net/wu996489865/article/details/118539853
+https://hanshuliang.blog.csdn.net/article/details/118912401?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-118912401-blog-118539853.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-4-118912401-blog-118539853.pc_relevant_recovery_v2&utm_relevant_index=5
+https://blog.csdn.net/chzphoenix/article/details/119186609?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-11-119186609-blog-118539853.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-11-119186609-blog-118539853.pc_relevant_recovery_v2&utm_relevant_index=12
+https://developer.android.com/codelabs/on-demand-dynamic-delivery#1
+
+命令行生成全量apk
+https://gist.github.com/Farbklex/dbf96c2426c59a37d681438ade63e416
+
+
+
+
 
 
