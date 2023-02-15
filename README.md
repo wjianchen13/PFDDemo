@@ -55,6 +55,7 @@ java -jar bundletool-all-1.7.0.jar  install-apks --apks=test1.apks
 7.使用bundletool 工具本地测试时，需要把features模块下的AndroidManifest.xml文件dist改为install-time，如果还是
 on-demand则安装后运行会提示找不到对应的类。
 
+命令行生成全量apk的方式
 gradlew packageV_test1DebugUniversalApk
 
 
