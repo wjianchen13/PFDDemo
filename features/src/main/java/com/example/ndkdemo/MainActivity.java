@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.features.R;
+import com.example.pfddemo.MyApplication;
+import com.google.android.play.core.splitinstall.SplitInstallHelper;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -14,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvTest;
 
     static {
-        System.loadLibrary("ndkdemo");
+//        System.loadLibrary("ndkdemo");
+        SplitInstallHelper.loadLibrary(MyApplication.getInstance(), "ndkdemo");
     }
 
     @Override
